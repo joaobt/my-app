@@ -1,6 +1,6 @@
 import React from 'react'
 import "./topbar.css"
-import { NotificationsNoneIcon } from '@mui/icons-material/NotificationsNone';
+import { NotificationsNone } from "@material-ui/icons";
 
 
 export default function topbar() {
@@ -13,7 +13,7 @@ export default function topbar() {
                 <div className='topRight'>
                     <div className='topbarIconsContainer'>
 
-                        <NotificationsNoneIcon />
+                        <NotificationsNone />
                         <span className='topIconBagde'>2</span>
 
                     </div>
