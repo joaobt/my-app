@@ -24,14 +24,14 @@
     align-items: center;
 }
 
-.topbarIconContainer{
+.topbarIconsContainer{
     position: relative;
     cursor: pointer;
     margin-right: 10px;
     color: #555;
 }
 
-.topIconBagde{
+.topIconsBagde{
     width: 15px;
     height: 15px;
     position: absolute;
@@ -46,7 +46,7 @@
     font-size: 10px;
 }
 
-.topAvatart{
+.topAvatar{
     width: 40px;
     height: 40px;
     border-radius: 50%;

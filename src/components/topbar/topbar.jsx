@@ -12,11 +12,11 @@ export default function topbar() {
                 <div className='topRight'>
                     <div className='topbarIconsContainer'>
                         <NotificationsNone />
-                        <span className='topIconBagde'>2</span>
+                        <span className='topIconsBagde'>2</span>
                     </div>
                     <div className='topbarIconsContainer'>
                         < Language />
-                        <span className='topIconBagde'>2</span>
+                        <span className='topIconsBagde'>2</span>
                     </div>
                     <div className='topbarIconsContainer'>
                         <Settings />
