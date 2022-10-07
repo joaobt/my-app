@@ -1,15 +1,17 @@
-import Topbar from "./components/topbar/topbar";
-
+import Siderbar from "./components/siderbar/Siderbar";
+import Topbar from "./components/topbar/Topbar";
+import "./app.css";
 function App() {
   return (
-    <div className="App"> 
+    <div className="App">
+      <Topbar />
 
-    <Topbar/> 
-    
+      <div className="container">
+        <Siderbar />
+        <div className="other">other pages</div>
+      </div>
     </div>
-     );
-   }
-   
-   export default App;
-     
-   
+  );
+}
+
+export default App;
